@@ -88,7 +88,7 @@ header nav .menu .submenu {
     transition: opacity 0.3s ease, transform 0.5s ease, visibility 0s 0.5s;
 }
 
-header nav .menu .nos-produits:hover + .submenu,
+header nav .menu .nos-produits:hover+.submenu,
 header nav .menu .submenu:hover {
     visibility: visible;
     opacity: 1;
@@ -109,24 +109,26 @@ header nav .menu .submenu a:hover {
     color: #d32f2f;
 }
 
-header .btn-right{
+header .btn-right {
     display: none;
 }
-@media (max-width: 1200px) {
+
+@media (max-width: 1350px) {
     header .menu {
-      display: none;
+        display: none;
     }
+
     header .btn-right {
         display: block;
     }
-    
-    .btn-right  img {
+
+    .btn-right img {
         width: 80px;
         height: auto;
         margin-right: 10px;
     }
-    
-  }
+
+}
 
 .hero {
     height: calc(100vh - var(--header-height));
@@ -248,19 +250,85 @@ header .btn-right{
 }
 
 @media (max-width: 768px) {
-   
+
 
     .hero .title {
         font-size: 36px;
     }
- 
+
     .hero .description {
         font-size: 20px;
     }
-    .header .logo img{
+
+    .header .logo img {
         max-width: 35vw;
     }
-    .btn-right  img {
+
+    .btn-right img {
         max-width: 20vw;
     }
+}
+
+
+.mobile-menu {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 70%;
+    height: 100vh;
+    background-color: #fff;
+    transition: right 0.5s ease;
+    z-index: 1001;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    direction: rtl;
+    overflow-y: scroll;
+}
+
+.mobile-menu ul {
+    list-style: none;
+    padding: 0;
+
+}
+
+.nav-item {
+    font-size: 24px;
+    font-weight: bold;
+}
+.bottom-icon-container{
+    display: flex;
+}
+
+.bottom-icon-container img {
+    width: 30px;
+    height: auto;
+    transform: translateY(10px);
+}
+.mobile-menu ul .submenu>li {
+    font-size: 17px;
+    color: rgb(182, 174, 161);
+    line-height: 7px;
+}
+
+.mobile-menu a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 0;
+    display: block;
+    font-weight: bold;
+}
+
+.mobile-menu .submenu {
+    padding-left: 20px;
+}
+
+.mobile-menu.active {
+    right: 0;
+}
+
+.contact-info{
+    font-size: 18px;
+    margin-top: -20px;
+    font-weight: 600;
 }

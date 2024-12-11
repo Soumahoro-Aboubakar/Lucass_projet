@@ -23,14 +23,37 @@
     require '../vendor/autoload.php';
     $router = new AltoRouter();
     $router->map('GET', '/', function () {
+        echo '
+        <script>
+        document.title = "Acceuil";  
+    </script>'; //permet de changer le titre de la page
         require '../pages/acceuilPage.php';
     });
     $router->map('GET', '/maintenance&support', function () {
+        echo '
+        <script>
+        document.title = "maintenance&support";   
+    </script>'; //permet de changer le titre de la page
         require '../pages/maintenance&supportPage.php';
     });
 
     $router->map('GET', '/domaine', function () {
+        echo '
+        <script>
+        document.title = "Demaine";  
+    </script>'; //permet de changer le titre de la page
         require '../pages/expertiseField.php';
+
+    });
+    $router->map('GET', '/contact', function () {
+        echo '
+    <script>
+    document.title = "Contact";  
+</script>';  //permet de changer le titre de la page
+        require '../pages/contactPage.php';
+    });
+    $router->map('GET', '/espace-client', function () {
+        require '../pages/espaceClient.php';
     });
     $router->map('GET', '/nos-produits', function () {
         $produit = isset($_GET['produit']) ? $_GET['produit'] : null;
@@ -47,6 +70,10 @@
         </style>
     </head>
     <body>';
+        echo '
+    <script>
+    document.title = "Nos produits";  
+</script>'; //permet de changer le titre de la page
         require "../components/header.php";
         if ($produit === "extincteurs") {
             require '../components/produits/extincteurs.php';

@@ -5,6 +5,9 @@
     position: fixed;
     z-index: 4;
     width: 100vw;
+    top: 0px;
+    right: 0px;
+    left: 0px;
 }
 
 .maintenance-section , .expertisefield {

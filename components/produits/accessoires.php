@@ -73,8 +73,6 @@
 
                                 </div>
 
-
-
                             </div>
                             <div class="signaletiques-right-paragraph">
                                 <div class="signaletiques-parts">
@@ -111,7 +109,6 @@
                                     <h2 class="signaletiques-title">
                                         Porte extincteur</h2>
                                     <p class="signaletiques-paragraph-under-title">
-
                                         Le porte extincteur sert à fixer des extincteurs, à les éviter de la portée des
                                         enfants ou à les ranger simplement. Cette solution peut notamment être utilisée
                                         pour fixer l'extincteur sur un support pendant les déplacements. </p>
