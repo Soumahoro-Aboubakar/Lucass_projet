@@ -1,0 +1,137 @@
+/*
+  ce style est la combinaisons de fichiers qui sont (extincteurs.php , signaletique.php)
+*/
+
+
+
+.main-extincteurs-container, .main-signaletiques-container, .main-robinetsIncendieArmees-container, .main-portCoupeFeu-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.signaletiques-parts, .portCoupeFeu-parts {
+    margin: 100px 0px 100px 0px;
+}
+
+.extincteurs-container, .signaletiques-container, .robinetsIncendieArmees-container, .portCoupeFeu-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.extincteurs-intro, .signaletiques-intro, .robinetsIncendieArmees-intro, .portCoupeFeu-intro {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    font-size: 1.4rem;
+    margin-top: 50px;
+}
+
+.extincteurs-intro-header-top, .signaletiques-intro-header-top, .robinetsIncendieArmees-intro-header-top, .portCoupeFeu-intro-header-top {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.extincteurs-left-intro,
+.extincteurs-right-intro, .signaletiques-left-intro, .signaletiques-right-intro, .robinetsIncendieArmees-right-intro, .robinetsIncendieArmees-left-intro {
+    flex: 1;
+    min-width: 45%;
+    /*la cause de l'erreur (image)*/
+    margin-bottom: 80px;
+}
+
+.extincteurs-left-intro p,
+.extincteurs-right-intro p, .signaletiques-left-intro p, .signaletiques-right-intro p, .robinetsIncendieArmees-left-intro p, .robinetsIncendieArmees-right-intro p {
+    margin: 10px 0;
+}
+
+.extincteurs-paragraph, .signaletiques-paragraph, .robinetsIncendieArmees-paragraph, .portCoupeFeu-paragraph {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 130px;
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+
+.extincteurs-left-paragraph,
+.extincteurs-right-paragraph, .signaletiques-left-paragraph, .signaletiques-right-paragraph, .robinetsIncendieArmees-left-paragraph, .robinetsIncendieArmees-right-paragraph, .portCoupeFeu-right-paragraph, .portCoupeFeu-left-paragraph {
+    flex: 1;
+}
+
+.extincteurs-title, .signaletiques-title, .robinetsIncendieArmees-title, .portCoupeFeu-title {
+    color: red;
+    font-size: 1.8rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.extincteurs-paragraph-under-title, .signaletiques-paragraph-under-title, .robinetsIncendieArmees-paragraph-under-title, .portCoupeFeu-paragraph-under-title {
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+ul li {
+    font-size: 20px;
+}
+
+.border-width {
+    background-color: rgb(126, 123, 123);
+    height: 2px;
+    width: 70%;
+    margin: 20px auto;
+    transform: translateY(50px);
+}
+
+.maintenance-section {
+    margin-top: -20px;
+    margin-bottom: 70px;
+}
+
+@media (max-width: 1230px) {
+
+    .extincteurs-right-intro img, .signaletiques-right-intro img, .robinetsIncendieArmees-right-intro img, .portCoupeFeu-right-paragraph img {
+        min-width: 45vw;
+        margin: 0 auto;
+        height: auto;
+    }
+}
+
+@media (max-width: 1130px) {
+    .extincteurs-intro-hearder-top, .signaletiques-intro-header-top, .robinetsIncendieArmees-intro-header-top, .portCoupeFeu-intro-header-top {
+        flex-direction: column;
+    }
+
+    .extincteurs-intro, .signaletiques-intro, .robinetsIncendieArmees-intro, .portCoupeFeu-intro {
+        flex-direction: column;
+    }
+
+    .extincteurs-left-intro, .signaletiques-left-intro, .robinetsIncendieArmees-left-intro {
+        flex: 1;
+        min-width: 80%;
+        margin: 0 auto;
+    }
+
+    .extincteurs-paragraph, .signaletiques-paragraph, .robinetsIncendieArmees-paragraph, .portCoupeFeu-paragraph {
+        flex-direction: column;
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin: 0px auto;
+    }
+
+    .extincteurs-left-paragraph, .signaletiques-left-paragraph, .robinetsIncendieArmees-left-paragraph, .portCoupeFeu-left-paragraph, .portCoupeFeu-right-paragraph {
+        flex: 1;
+    }
+}

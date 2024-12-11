@@ -9,6 +9,8 @@
     <link rel="stylesheet" type="text/css" href="appFooter.css">
     <link rel="stylesheet" type="text/css" href="maintenance.css">
     <link rel="stylesheet" type="text/css" href="expertisefield.css">
+    <link rel="stylesheet" type="text/css" href="nosProduits-extincteurs.css">
+    <link rel="stylesheet" type="text/css" href="nosProduits-desenfumage.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

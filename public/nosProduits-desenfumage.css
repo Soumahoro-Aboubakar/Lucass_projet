@@ -1,0 +1,93 @@
+.main-desenfumage-container {
+    max-width: 800px;
+     margin: 0px 80px;
+}
+
+.desenfumage-container-1 {
+    padding: 20px;
+}
+
+.desenfumage-container-2 {
+
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.desenfumage-container-2 h2 {
+    color: red;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.maintenance-section , .robinetsIncendieArmees-section , .portCoupeFeu-section {
+    padding: 20px;
+    margin-top: 100px;
+}
+
+.maintenance-title , .robinetsIncendieArmees-title , .portCoupeFeu-title {
+    color: red;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.maintenance-paragraph , .robinetsIncendieArmees-paragraph , .portCoupeFeu-paragraph{
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+}
+
+.maintenance-list ,  .robinetsIncendieArmees-list{
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.maintenance-list li , .robinetsIncendieArmees-list li {
+    font-size: 1.20rem;
+    margin-bottom: 10px;
+}
+
+.desenfumage-paragraph-under-title {
+    font-size: 1.4rem;
+}
+
+@media (max-width: 1024px) {
+    .desenfumage-container-2 {
+        padding: 20px;
+    }
+
+}
+
+
+
+@media (max-width: 768px) {
+    .maintenance-title {
+        font-size: 1.9rem;
+    }
+    .maintenance-paragraph {
+        font-size: 1.4rem;
+    }
+
+    .maintenance-list li {
+        font-size: 1.23rem;
+    }
+    .desenfumage-container-1,
+    .desenfumage-container-2 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .desenfumage-container-2 h2 {
+        font-size: 1.7rem;
+    }
+
+    .desenfumage-paragraph-under-title {
+        font-size: 1.2rem;
+    }
+
+    .desenfumage-header-title h1 {
+        font-size: 1.5rem;
+    }
+    .main-desenfumage-container {
+        
+         margin: 0px 0px;
+    }
+}
