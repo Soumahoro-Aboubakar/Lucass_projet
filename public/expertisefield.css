@@ -27,15 +27,12 @@
   .expertisefield-content {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 20px;
+    gap: 100px;
   }
   
   .expertisefield-left-column,
   .expertisefield-right-column {
     padding: 20px;
-    background-color: #f9f9f9;
-    border: 1px solid #ddd;
-    border-radius: 8px;
   }
   
   .expertisefield-left-column h2,

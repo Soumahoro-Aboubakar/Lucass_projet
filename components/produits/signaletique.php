@@ -1,15 +1,15 @@
 <section>
-    <header class="maintenance-header">
+    <header class="maintenance-header" data-aos="fade-down">
         <div class="maintenance-header-banner">
             <h1>Signalétiques</h1>
         </div>
-        <img src="assets/images/signaletiques.jpg" alt="Bannière" class="banner-image">
+        <img src="assets/images/signaletiques.jpg" alt="Bannière" class="banner-image" data-aos="zoom-in">
     </header>
     <div>
         <main class="main-signaletiques-container">
             <section>
                 <div class="signaletiques-container">
-                    <div class="signaletiques-intro">
+                    <div class="signaletiques-intro" data-aos="fade-up">
                         <div class="signaletiques-intro-header-top">
                             <div class="signaletiques-left-intro">
                                 <p class="signaletiques-intro-headear">
@@ -20,13 +20,13 @@
                                     assurer la sécurité des personnes en toutes circonstances.
                                 </p>
                             </div>
-                            <div class="signaletiques-right-intro">
+                            <div class="signaletiques-right-intro" data-aos="flip-left">
                                 <img src="assets/certification/apsad.jpg" alt="Bannière" class="banner-image">
                             </div>
                         </div>
                         <div class="signaletiques-paragraph">
                             <div class="signaletiques-left-paragraph">
-                                <div class="signaletiques-parts">
+                                <div class="signaletiques-parts" data-aos="fade-right">
                                     <h2 class="signaletiques-title">Signalétiques incendie</h2>
                                     <p class="signaletiques-paragraph-under-title">Lorem ipsum dolor sit amet,
                                         consectetur
@@ -42,7 +42,7 @@
                                     </p>
 
                                 </div>
-                                <div class="signaletiques-parts">
+                                <div class="signaletiques-parts" data-aos="fade-right" data-aos-delay="100">
                                     <h2 class="signaletiques-title">Signalétiques désenfumage</h2>
                                     <p class="signaletiques-paragraph-under-title">Lorem ipsum dolor sit amet,
                                         consectetur
@@ -58,7 +58,7 @@
                                     </p>
 
                                 </div>
-                                <div class="signaletiques-parts">
+                                <div class="signaletiques-parts" data-aos="fade-right" data-aos-delay="200">
                                     <h2 class="signaletiques-title">Signalétiques portes coupe-feu</h2>
                                     <p class="signaletiques-paragraph-under-title">Lorem ipsum dolor sit amet,
                                         consectetur
@@ -79,7 +79,7 @@
 
                             </div>
                             <div class="signaletiques-right-paragraph">
-                                <div class="signaletiques-parts">
+                                <div class="signaletiques-parts" data-aos="fade-left">
                                     <h2 class="signaletiques-title">Signalétiques extincteurs</h2>
                                     <p class="signaletiques-paragraph-under-title">Lorem ipsum dolor sit amet,
                                         consectetur
@@ -99,7 +99,7 @@
                                     </p>
 
                                 </div>
-                                <div class="signaletiques-parts">
+                                <div class="signaletiques-parts" data-aos="fade-left" data-aos-delay="100">
                                     <h2 class="signaletiques-title">Signalétiques évacuation</h2>
                                     <p class="signaletiques-paragraph-under-title">Lorem ipsum dolor sit amet,
                                         consectetur
@@ -119,7 +119,7 @@
                                     </p>
 
                                 </div>
-                                <div class="signaletiques-parts">
+                                <div class="signaletiques-parts" data-aos="fade-left" data-aos-delay="200">
                                     <h2 class="signaletiques-title">Signalétiques interdictions</h2>
                                     <p class="signaletiques-paragraph-under-title">Lorem ipsum dolor sit amet,
                                         consectetur

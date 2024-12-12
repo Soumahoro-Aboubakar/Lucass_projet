@@ -1,15 +1,15 @@
-<section class="accessoires">
+<section class="accessoires" data-aos="fade-down">
     <header class="maintenance-header">
         <div class="maintenance-header-banner">
             <h1>Accessoires</h1>
         </div>
-        <img src="assets/images/accessoires.jpg" alt="Bannière" class="banner-image">
+        <img src="assets/images/accessoires.jpg" alt="Bannière" class="banner-image" data-aos="zoom-in"y>
     </header>
     <div>
         <main class="main-signaletiques-container">
             <section>
                 <div class="signaletiques-container">
-                    <div class="signaletiques-intro">
+                    <div class="signaletiques-intro"  data-aos="fade-up">
                         <div class="signaletiques-intro-header-top">
                             <div class="signaletiques-left-intro">
                                 <p class="signaletiques-intro-headear">
@@ -21,13 +21,13 @@
                                     personnes en toutes circonstances.
                                 </p>
                             </div>
-                            <div class="signaletiques-right-intro">
-                                <img src="assets/certification/apsad.jpg" alt="Bannière" class="banner-image">
+                            <div class="signaletiques-right-intro" data-aos="flip-left">
+                                <img src="assets/certification/apsad.jpg" alt="Bannière" class="banner-image" >
                             </div>
                         </div>
                         <div class="signaletiques-paragraph">
                             <div class="signaletiques-left-paragraph">
-                                <div class="signaletiques-parts">
+                                <div class="signaletiques-parts" data-aos="fade-right">
                                     <h2 class="signaletiques-title">Armoire de protection</h2>
                                     <p class="signaletiques-paragraph-under-title">Les coffrets pour extincteurs sont
                                         généralement fabriqués en tôle et peuvent être utilisés à l'intérieur comme à
@@ -35,7 +35,7 @@
                                         couleur rouge, qui symbolise la sécurité contre les incendies. </p>
 
                                 </div>
-                                <div class="signaletiques-parts">
+                                <div class="signaletiques-parts" data-aos="fade-right" data-aos-delay="100">
                                     <h2 class="signaletiques-title">Bac à sable</h2>
                                     <p class="signaletiques-paragraph-under-title">Le bac à sable est employé afin de
                                         stocker le sable. Il est nécessaire de le positionner dans des lieux
@@ -46,7 +46,7 @@
                                         absorbants. </p>
 
                                 </div>
-                                <div class="signaletiques-parts">
+                                <div class="signaletiques-parts" data-aos="fade-right" data-aos-delay="200">
                                     <h2 class="signaletiques-title">Support extincteur magnétique</h2>
                                     <p class="signaletiques-paragraph-under-title">Des supports aimantés sont
                                         disponibles pour les extincteurs (ne sont pas adaptés aux extincteurs sur
@@ -55,7 +55,7 @@
                                         vos extincteurs. </p>
 
                                 </div>
-                                <div class="signaletiques-parts">
+                                <div class="signaletiques-parts" data-aos="fade-right" data-aos-delay="300">
                                     <h2 class="signaletiques-title">Absorbants</h2>
                                     <p class="signaletiques-paragraph-under-title">
                                         Les absorbants sont une solution permettant d'absorber les liquides répandus
@@ -64,7 +64,7 @@
                                         brasier.</p>
 
                                 </div>
-                                <div class="signaletiques-parts">
+                                <div class="signaletiques-parts" data-aos="fade-right" data-aos-delay="400">
                                     <h2 class="signaletiques-title">Alarme type 4</h2>
                                     <p class="signaletiques-paragraph-under-title">Le porte extincteur est un support
                                         destiné à fixer des extincteurs, les mettre hors de portée des enfants ou tout
@@ -74,7 +74,7 @@
                                 </div>
 
                             </div>
-                            <div class="signaletiques-right-paragraph">
+                            <div class="signaletiques-right-paragraph" data-aos="fade-left">
                                 <div class="signaletiques-parts">
                                     <h2 class="signaletiques-title">Housse de protection</h2>
                                     <p class="signaletiques-paragraph-under-title">Les housses destinées aux extincteurs
@@ -87,7 +87,7 @@
 
                                 </div>
 
-                                <div class="signaletiques-parts">
+                                <div class="signaletiques-parts" data-aos="fade-left" data-aos-delay="100">
                                     <h2 class="signaletiques-title">Couverture anti-feu</h2>
                                     <p class="signaletiques-paragraph-under-title">La couverture anti-feu joue un rôle
                                         crucial dans la sécurité contre les incendies. Il s'agit d'un outil de lutte
@@ -96,7 +96,7 @@
                                     </p>
 
                                 </div>
-                                <div class="signaletiques-parts">
+                                <div class="signaletiques-parts" data-aos="fade-left" data-aos-delay="200">
                                     <h2 class="signaletiques-title">Pelles et seaux</h2>
                                     <p class="signaletiques-paragraph-under-title">Les pelles ou seaux sont des
                                         instruments complémentaires extrêmement performants pour prévenir les incendies.
@@ -105,7 +105,7 @@
                                     </p>
 
                                 </div>
-                                <div class="signaletiques-parts">
+                                <div class="signaletiques-parts" data-aos="fade-left" data-aos-delay="300">
                                     <h2 class="signaletiques-title">
                                         Porte extincteur</h2>
                                     <p class="signaletiques-paragraph-under-title">

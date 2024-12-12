@@ -1,4 +1,4 @@
-<header class="header">
+<header class="header" data-aos="fade-down">
     <div class="logo">
         <a href="index.php">
             <img src="./assets/logos/logo.png" alt="logo">
@@ -13,10 +13,10 @@
     </script>
     <nav>
         <ul class="menu">
-            <li><a href="/">Accueil</a></li>
-            <li class="dropdown">
+            <li><a href="/" data-aos="fade-up">Accueil</a></li>
+            <li class="dropdown" data-aos="fade-up" data-aos-delay="100">
                 <a href="#" class="nos-produits">Nos produits</a>
-                <ul class="submenu">
+                <ul class="submenu" >
                     <li><a href="/nos-produits?produit=extincteurs">Extincteurs</a></li>
                     <li><a href="/nos-produits?produit=desenfumage">Désenfumage</a></li>
                     <li><a href="/nos-produits?produit=signaletique">Signalétiques</a></li>
@@ -25,13 +25,13 @@
                     <li><a href="/nos-produits?produit=accessoires">Accessoires</a></li>
                 </ul>
             </li>
-            <li><a href="/domaine">Domaine d'expertise</a></li>
-            <li><a href="/maintenance&support">Maintenance & suivi</a></li>
-            <li><a href="/espace-client">Espace client</a></li>
-            <li><a href="/contact">Nous contacter</a></li>
+            <li><a href="/domaine" data-aos="fade-up" data-aos-delay="200">Domaine d'expertise</a></li>
+            <li><a href="/maintenance&support" data-aos="fade-up" data-aos-delay="300">Maintenance & suivi</a></li>
+            <li><a href="/espace-client" data-aos="fade-up" data-aos-delay="400">Espace client</a></li>
+            <li><a href="/contact" data-aos="fade-up" data-aos-delay="500">Nous contacter</a></li>
         </ul>
     </nav>
-    <div class="btn-right" onclick="toggleMenu()">
+    <div class="btn-right" onclick="toggleMenu()" data-aos="zoom-in">
         <img src="./assets/hamburger/hamburger.png" alt="btn-option">
     </div>
 </header>

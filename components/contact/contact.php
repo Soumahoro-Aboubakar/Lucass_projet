@@ -162,58 +162,43 @@
 </head>
 
 <body>
-    <section class="main-contact form-top">
-        <div class="contact-container">
-            <div class="form-section">
-                <form method="POST" action="">
-                    <div class="form-group">
-                        <div>
-                            <label for="prenom">Prénom (obligatoire)</label>
-                            <input type="text" id="prenom" name="prenom" required>
-                        </div>
-                        <div>
-                            <label for="nom">Nom (obligatoire)</label>
-                            <input type="text" id="nom" name="nom" required>
-                        </div>
+<section class="main-contact form-top">
+    <div class="contact-container">
+        <div class="form-section" data-aos="fade-up" data-aos-delay="300" data-aos-once="true" data-aos-offset="200">
+            <form method="POST" action="">
+                <div class="form-group">
+                    <div>
+                        <label for="prenom">Prénom (obligatoire)</label>
+                        <input type="text" id="prenom" name="prenom" required>
                     </div>
-                    <label for="email">Adresse mail (obligatoire)</label>
-                    <input type="email" id="email" name="email" required>
+                    <div>
+                        <label for="nom">Nom (obligatoire)</label>
+                        <input type="text" id="nom" name="nom" required>
+                    </div>
+                </div>
+                <label for="email">Adresse mail (obligatoire)</label>
+                <input type="email" id="email" name="email" required>
 
-                    <label for="message">Message (obligatoire)</label>
-                    <textarea id="message" name="message" required></textarea>
+                <label for="message">Message (obligatoire)</label>
+                <textarea id="message" name="message" required></textarea>
 
-                    <button type="submit">ENVOYER</button>
-                </form>
-                <?php
-                if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-                    $prenom = htmlspecialchars($_POST['prenom']);
-                    $nom = htmlspecialchars($_POST['nom']);
-                    $email = htmlspecialchars($_POST['email']);
-                    $message = htmlspecialchars($_POST['message']);
-
-                    $to = 'monmail@gmail.com';
-                    $subject = "Nouveau message de $prenom $nom";
-                    $body = "Prénom: $prenom\nNom: $nom\nEmail: $email\nMessage:\n$message";
-                    $headers = "From: $email";
-
-                    if (mail($to, $subject, $body, $headers)) {
-                        echo '<p style="color: green;">Message envoyé avec succès.</p>';
-                    } else {
-                        echo '<p style="color: red;">Une erreur s\'est produite. Veuillez réessayer.</p>';
-                    }
-                }
-                ?>
-            </div>
-            <div class="info-section">
-                <h2>Adresse</h2>
-                <p>1 ZAC campo vallone Lot numero,<br>20620 Biguglia</p>
-
-                <h2>Coordonnées</h2>
-                <p>04 95 30 70 89<br>contact@serdef-incendie.com</p>
-                <p>Les contacts par email se font 24h/24.<br>Nous vous répondons dans les meilleurs délais.</p>
-            </div>
+                <button type="submit">ENVOYER</button>
+            </form>
+            <?php
+           
+            ?>
         </div>
-    </section>
+
+        <div class="info-section" data-aos="fade-up" data-aos-delay="500" data-aos-once="true" data-aos-offset="200">
+            <h2>Adresse</h2>
+            <p>1 ZAC campo vallone Lot numero,<br>20620 Biguglia</p>
+
+            <h2>Coordonnées</h2>
+            <p>04 95 30 70 89<br>contact@serdef-incendie.com</p>
+            <p>Les contacts par email se font 24h/24.<br>Nous vous répondons dans les meilleurs délais.</p>
+        </div>
+    </div>
+</section>
 </body>
 
 </html>

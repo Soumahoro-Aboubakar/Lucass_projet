@@ -11,6 +11,9 @@
     <link rel="stylesheet" type="text/css" href="expertisefield.css">
     <link rel="stylesheet" type="text/css" href="nosProduits-extincteurs.css">
     <link rel="stylesheet" type="text/css" href="nosProduits-desenfumage.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,6 +22,7 @@
 </head>
 
 <body>
+
     <?php
     require '../vendor/autoload.php';
     $router = new AltoRouter();
@@ -99,6 +103,14 @@
     <?php
     require "../components/footer.php";
     ?>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1500, // Durée de l'animation (en millisecondes)
+            easing: 'ease-out-back', // Type d'accélération
+            once: false // L'animation ne se répète pas
+        });
+    </script>
 </body>
 
 </html>
