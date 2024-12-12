@@ -18,7 +18,33 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
     <title>Index</title>
+    <style>
+        body {
+            font-family: "Rubik", sans-serif;
+            font-weight: 200;
+            font-style: normal;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-weight: bold;
+        }
+        p{
+            font-size: 19px;
+        }
+       strong {
+        font-weight: 600;
+        font-size: 18px;
+       }
+    </style>
+
 </head>
 
 <body>
@@ -57,6 +83,7 @@
         require '../pages/contactPage.php';
     });
     $router->map('GET', '/espace-client', function () {
+
         require '../pages/espaceClient.php';
     });
     $router->map('GET', '/nos-produits', function () {
@@ -78,6 +105,7 @@
     <script>
     document.title = "Nos produits";  
 </script>'; //permet de changer le titre de la page
+    
         require "../components/header.php";
         if ($produit === "extincteurs") {
             require '../components/produits/extincteurs.php';
